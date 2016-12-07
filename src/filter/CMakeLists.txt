@@ -7,6 +7,7 @@ endif (${GAVL_FOUND})
 if (${OpenCV_FOUND})
     add_subdirectory (facebl0r)
     add_subdirectory (facedetect)
+    add_subdirectory (sample)
 endif (${OpenCV_FOUND})
 
 if (${Cairo_FOUND})
